@@ -15,5 +15,8 @@
 
 PLATFORM_PATH := device/cyanogen/msm8916-common
 
+# Use Snapdragon LLVM, if available
+TARGET_USE_SDCLANG := true
+
 # Include board config fragments
 include $(PLATFORM_PATH)/board/*.mk
